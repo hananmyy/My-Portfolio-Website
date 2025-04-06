@@ -31,6 +31,7 @@ const scrollUp = () => {
 
 window.addEventListener("scroll", scrollUp)
 
+
 // CHANGE BACKGROUD HEADER
 const scrollHeader = () => {
     const header = document.getElementById("navbar")

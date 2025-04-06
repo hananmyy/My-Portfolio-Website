@@ -21,7 +21,9 @@
         >
           <div class="flex flex-col items-center gap-5 md:flex-row">
             <!-- content -->
-            <div class="w-full space-y-5 lg:w-1/2 p-4">
+            <div
+              class="w-full space-y-5 lg:w-1/2 p-4 max-md:place-items-center"
+            >
               <h2 class="text-gray-700 mb-2 font-Poppins">Hello, I'm</h2>
               <h1 class="font-Lobster">
                 Hanan Mohamud <br />
@@ -30,14 +32,19 @@
               <div
                 class="flex flex-col gap-2 md:flex-row md:gap-4 lg:pt-5 xl:pt-10"
               >
-                <a href="https://drive.google.com/uc?export=download&id=1w9WL30hhhBTWE8KL8ol9UOEXZ4kKilOW" download="Hanan Mohamud - CV.pdf">
-                  <button class="btn text-white"><span>Download CV</span></button>
+                <a
+                  href="https://drive.google.com/uc?export=download&id=1w9WL30hhhBTWE8KL8ol9UOEXZ4kKilOW"
+                  download="Hanan Mohamud - CV.pdf"
+                >
+                  <button class="btn text-white">
+                    <span>Download CV</span>
+                  </button>
                 </a>
                 <a href="#contact">
                   <button class="btn btn_outline">
-                  <span>Contact Info</span>
-                </button>
-              </a>
+                    <span>Contact Info</span>
+                  </button>
+                </a>
               </div>
               <div class="flex items-center gap-5 text-lg md:pt-4">
                 <a href="https://www.linkedin.com/in/hananmyusuf"
@@ -55,6 +62,11 @@
                     class="ri-mail-fill text-gray-700 hover:opacity-80 duration-300 cursor pointer"
                   ></i
                 ></a>
+                <a href="https://www.datascienceportfol.io/hananmohamudy">
+                  <i
+                    class="ri-link text-gray-700 hover:opacity-80 duration-300 cursor pointer"
+                  ></i>
+                </a>
               </div>
             </div>
 
@@ -72,25 +84,53 @@
 
       <!-- About Me -->
       <section id="about" class="relative overflow-hidden">
-        <div class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
+        <div
+          class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
+        >
           <h2 class="font-Lobster">About Me</h2>
         </div>
         <div class="container space-y-10 xl:space-y-0">
           <!-- item 1 -->
-          <div class="flex flex-col items-center md:flex-row gap-5 sm:gap-8 md:gap-4">
+          <div
+            class="flex flex-col items-center md:flex-row gap-5 sm:gap-8 md:gap-4"
+          >
             <!-- image -->
-            <div class="w-full md:w-1/3 px-3">
+            <div class="max-md:w-2/3 md:w-1/2 px-3">
               <img
                 src="/img/about_image.jpg"
                 alt="About Image"
                 class="w-full sm:w-2/3 lg:w-1/2 xl:w-2/3 mx-auto rounded-4xl hover:shadow-2xl hover:-translate-y-1 duration-300"
               />
             </div>
-      
+
             <!-- content -->
-            <div class="sm:w-2/3 sm:mt-5">
-              <div class="px-3">
-                <p class="font-medium">I’m Hanan Mohamud, a civil engineering graduate turned software developer with a strong focus on back-end development and data-driven solutions. <br> My engineering background has sharpened my ability to analyze complex problems and build structured, efficient systems, skills I now apply to software development. <br> I specialize in creating scalable, well-optimized applications that improve efficiency and streamline workflows, helping businesses operate more smoothly. <br> I am looking for opportunities to contribute as a junior developer, where I can apply my skills while continuing to grow. If you are seeking a problem-solver who can enhance your technical team, let us connect. <br> I am ready to build solutions that make an impact.</p>
+            <div class="sm:w-2/3">
+              <div class="px-3 max-md:mt-7">
+                <p class="font-medium">
+                  I am a software developer specializing in
+                  <span class="font-semibold"> website development</span>. I
+                  build scalable web applications using Node.js, Python, MySQL,
+                  MongoDB, and Flask to solve real-world challenges. <br />
+                  My projects include VibandaConnect—a vendor management system
+                  for streamlined order tracking—and a blockchain in agriculture
+                  prototype that connects farmers directly with customers for
+                  fair payments. I have also developed a hospital management
+                  system and created portfolio and blog websites to showcase my
+                  work. 
+                  <p class="font-medium mt-2">Currently, I am expanding my expertise through a
+                  <span class="font-semibold"> Data Analysis </span> course and
+                  the Professional Foundations program at ALX Africa (expected
+                  April 2025), where I have sharpened my agile development and
+                  collaboration skills. <br />
+                  I am excited to contribute to innovative web development
+                  projects and drive digital transformation. <br /><span
+                    class="font-semibold"
+                  >
+                    Let us connect</span
+                  >
+                  if you are looking for a dedicated web developer to bring your ideas to life with robust digital solutions.</p>
+                  <p class="font-medium mt-2"><span class="font-semibold">Fun fact:</span> I love sunsets, and I love sunrises too, though I rarely get the chance to catch them. Nature always finds a way to recharge me. </p>
+                </p>
               </div>
             </div>
           </div>
@@ -102,10 +142,12 @@
         <div class="text-center font-Lobster mb-10">
           <h2>Experience</h2>
         </div>
-        <div class="container flex flex-col md:flex-row justify-center items-center space-x-0 md:space-x-5 space-y-5 w-full md:w-3/4 mx-auto">
+        <div
+          class="container flex flex-col md:flex-row justify-center items-center space-x-0 md:space-x-5 space-y-5 w-full md:w-3/4 mx-auto"
+        >
           <!-- card 1 -->
           <div
-            class="border border-gray-700 p-5 rounded-xl cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 w-full sm:w-2/3 md:w-1/3 flex flex-col"
+            class="border border-gray-700 p-5 rounded-xl cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 w-full max-md:w-2/3 md:w-1/2 flex flex-col"
           >
             <div>
               <h3 class="font-Poppins font-bold">Frontend Development</h3>
@@ -116,10 +158,10 @@
               </ol>
             </div>
           </div>
-      
+
           <!-- card 2 -->
           <div
-            class="border border-gray-700 p-5 rounded-xl cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 w-full sm:w-2/3 md:w-1/3 flex flex-col"
+            class="border border-gray-700 p-5 rounded-xl cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 w-full max-md:w-2/3 md:w-1/2 flex flex-col"
           >
             <div>
               <h3 class="font-Poppins font-bold">Backend Development</h3>
@@ -141,13 +183,15 @@
         <div class="text-center font-Lobster mb-10">
           <h2>Projects</h2>
         </div>
-        <div class="container flex flex-col md:flex-row space-x-5 space-y-5 sm:place-items-center">
+        <div
+          class="container w-full grid grid-cols-1 px-4 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 max-sm:w-2/3 lg:w-3/4 xl: max-lg:place-items-center md:gap-2 lg:space-x-3"
+        >
           <!-- card 1 -->
           <div
-            class="border border-gray-700 p-5 rounded-2xl cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 sm:w-2/3 md:w-1/2"
+            class="border border-gray-700 p-5 rounded-2xl cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 sm:w-2/3 md:w-1/2 lg:w-75 xl:w-80 lg:h-70 xl:h-72 md:mx-5 max-lg:my-3 md:mr-3"
           >
             <div>
-            <img src="/img/project1.jpg" alt="">
+              <img src="/img/project1.jpg" alt="" />
             </div>
             <div class="flex items-center gap-5">
               <h3 class="font-Poppins">Vendor Management System</h3>
@@ -156,10 +200,10 @@
 
           <!-- card 2 -->
           <div
-            class="border border-gray-700 p-5 rounded-2xl cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 sm:w-2/3 md:w-1/2"
+            class="border border-gray-700 p-5 rounded-2xl cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 sm:w-2/3 md:w-1/2 lg:w-72 xl:w-80 lg:h-64 xl:h-72 md:mx-5 max-lg:my-3 md:mr-5"
           >
             <div>
-            <img src="/img/project2.jpg" alt="">
+              <img src="/img/project2.jpg" alt="" />
             </div>
             <div class="flex items-center gap-5">
               <h3 class="font-Poppins">Portfolio Website</h3>
@@ -168,35 +212,76 @@
 
           <!-- card 3 -->
           <div
-            class="border border-gray-700 p-5 rounded-2xl cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 sm:w-2/3 md:w-1/2"
+            class="border border-gray-700 p-5 rounded-2xl cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 sm:w-2/3 md:w-1/2 lg:w-72 xl:w-80 lg:h-64 xl:h-72 md:mx-5 max-lg:my-3 md:px-5"
           >
             <div>
-            <img src="/img/project3.jpg" alt="">
+              <img src="/img/project3.jpg" alt="" />
+            </div>
+            <div class="flex items-center gap-5">
+              <h3 class="font-Poppins">Hospital Management System</h3>
+            </div>
+          </div>
+
+          <!-- card 4 -->
+          <div
+            class="border border-gray-700 p-5 rounded-2xl cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 sm:w-2/3 md:w-1/2 lg:w-72 xl:w-80 lg:h-64 xl:h-72 md:mx-5 max-lg:my-3 md:mr-5"
+          >
+            <div>
+              <img src="/img/project3.jpg" alt="" />
             </div>
             <div class="flex items-center gap-5">
               <h3 class="font-Poppins">Blog Website</h3>
+            </div>
+          </div>
+
+          <!-- card 5 -->
+          <div
+            class="border border-gray-700 p-5 rounded-2xl cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 sm:w-2/3 md:w-1/2 lg:w-72 xl:w-80 lg:h-64 xl:h-72 md:mx-5 max-lg:my-3 md:px-5"
+          >
+            <div>
+              <img src="/img/project3.jpg" alt="" />
+            </div>
+            <div class="flex items-center gap-5">
+              <h3 class="font-Poppins">Customer Management System</h3>
             </div>
           </div>
         </div>
       </section>
 
       <!-- Contact -->
-       <section id="contact" class="min-h-screen flex flex-col items-center pt-5 px-5">
+      <section
+        id="contact"
+        class="min-h-screen flex flex-col items-center pt-5 px-5"
+      >
         <div class="text-center font-Lobster mb-6">
           <h2>Contact Me</h2>
         </div>
         <div class="flex-grow flex justify-center items-center w-full">
-          <div class="grid place-items-center w-full sm:w-4/5 md:w-3/4 lg:w-2/3 space-y-3">
+          <div
+            class="grid place-items-center w-full sm:w-4/5 md:w-3/4 lg:w-2/3 space-y-3"
+          >
             <div class="px-5 pt-5 pb-10 space-y-5 w-full">
-              <div class="flex flex-col md:flex-row border border-gray-700 p-5 max-sm:rounded-3xl rounded-full md:space-x-5 md:space-y-0 space-y-5">
-                <div class="p-5 cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 w-full md:w-1/2 rounded-4xl">
-                  <a href="mailto:hananmohamudy@gmail.com" class="flex flex-col items-center text-center text-gray-700">
+              <div
+                class="flex flex-col md:flex-row border border-gray-700 p-5 max-sm:rounded-3xl rounded-full md:space-x-5 md:space-y-0 space-y-5"
+              >
+                <div
+                  class="p-5 cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 w-full md:w-1/2 rounded-4xl"
+                >
+                  <a
+                    href="mailto:hananmohamudy@gmail.com"
+                    class="flex flex-col items-center text-center text-gray-700"
+                  >
                     <i class="ri-mail-fill text-gray-700 text-2xl mb-2"></i>
                     <span>hananmohamudy@gmail.com</span>
                   </a>
                 </div>
-                <div class="p-5 cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 w-full md:w-1/2 rounded-4xl">
-                  <a href="https://www.linkedin.com/in/hananmyusuf" class="flex flex-col items-center text-center text-gray-700">
+                <div
+                  class="p-5 cursor-pointer hover:shadow-2xl hover:-translate-y-1 duration-300 w-full md:w-1/2 rounded-4xl"
+                >
+                  <a
+                    href="https://www.linkedin.com/in/hananmyusuf"
+                    class="flex flex-col items-center text-center text-gray-700"
+                  >
                     <i class="ri-linkedin-fill text-gray-700 text-2xl mb-2"></i>
                     <span>LinkedIn</span>
                   </a>
@@ -207,7 +292,11 @@
         </div>
       </section>
 
-      <a href="#" class="fixed right-4 -bottom-1/2 bg-gray-700 shadow-sm inline-block px-3 py-1 pb-4 md:px-4 md:py-2 rounded-md text-lg z-50 hover:-translate-y-1 duration-300" id="scroll-up">
+      <a
+        href="#"
+        class="fixed right-4 -bottom-1/2 bg-gray-700 shadow-sm inline-block px-3 py-1 pb-4 md:px-4 md:py-2 rounded-md text-lg z-50 hover:-translate-y-1 duration-300"
+        id="scroll-up"
+      >
         <i class="ri-arrow-up-line text-white"></i>
       </a>
     </main>

@@ -46,7 +46,7 @@
 
 
 section {
-    @apply py-20 md:py-28;
+    @apply py-15 md:py-28;
 }
 
 h1 {
